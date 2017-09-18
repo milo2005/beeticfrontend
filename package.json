@@ -1,0 +1,14 @@
+{
+  "name": "beetic",
+  "version": "1.0.0",
+  "description": "Frontend BeeTic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Dario Chamorro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

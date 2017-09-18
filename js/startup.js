@@ -237,17 +237,21 @@
           var toggleSolid = function(e) {
             if (e.scrollDirection === 'FORWARD') {
               navbar.addClass('solid');
+              navbar.addClass('orange');
             } else {
               navbar.removeClass('solid');
+              navbar.removeClass('orange');
             }
           };
           var toggleSolidFixed = function(e) {
             if (e.scrollDirection === 'FORWARD') {
               navbar.removeClass('absolute');
               navbar.addClass('solid');
+              navbar.addClass('orange');
             } else {
               navbar.addClass('absolute');
               navbar.removeClass('solid');
+              navbar.removeClass('orange');
             }
           };
 
