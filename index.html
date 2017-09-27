@@ -52,8 +52,8 @@
           <img src="images/icon.png" height="120px">
           <h1>BeeTic</h1>
           <!-- <span class="tagline">Soluciones que transforman el mundo</span> -->
-		  <span class="tagline"> Somos expertos en el desarrollo de aplicaciones web, móviles e internet de las cosas</span>
-		  <a class="text-down" href="#">Si requieres algún desarrollo en alguna de las áreas en las que somos expertos contáctanos</a>
+		  <span class="tagline">Somos expertos en el desarrollo de aplicaciones web, móviles e internet de las cosas</span>
+		  <a class="text-down" href="#contact">Si requieres algún desarrollo en alguna de las áreas en las que somos expertos contáctanos</a>
 		  <h6 class="text-down" align="center">Nuestros Desarrollos</h6>
           <button class="read-more"><i class="icon-caret-down"></i></button>
         </div>
@@ -75,11 +75,11 @@
         <div class="header-background white"></div>
         <div class="header-wrapper row valign-wrapper" style="background:#fafafa;">
           <div class="col s12 m8 offset-m2 valign" >
-            <h1>CoffeeTrack</h1>
+            <h1>CoffeTrack</h1>
             <!-- <span class="tagline">Trazabilidad y mejora de procesos en el cafe</span> -->
 			<span class="tagline">Plataforma basada en desarrollo móvil y web de la trazabilidad del café</span>
 			<h6 class="text-down" align="center">Conoce más sobre CoffeeTrack</h6>
-            <a class="btn-floating btn-large waves-effect waves-light cyan"><i class="material-icons">navigate_next</i></a>
+            <a class="btn-floating btn-large waves-effect waves-light cyan" href="coffetrack.html"><i class="material-icons">navigate_next</i></a>
             <!-- <button class="read-more"><i class="icon-caret-down"></i></button> -->
           </div>
         </div>
@@ -93,7 +93,7 @@
 			<span class="tagline">Servicio VoIP de radio reléfono desde tu smartphone</span>
 			<h6 class="text-down" align="center">Conoce más sobre ActiVox</h6>
             <!-- <br><button class="read-more"><i class="icon-caret-down"></i></button> -->
-			<a class="btn-floating btn-large waves-effect waves-light cyan"><i class="material-icons">navigate_next</i></a><br>
+			<a class="btn-floating btn-large waves-effect waves-light cyan" href="activox.html"><i class="material-icons">navigate_next</i></a><br>
           </div>
         </div>
       </div>
@@ -106,13 +106,14 @@
 			<span class="tagline">Hardware basado en IoT para la trazabilidad de activos</span>
 			<h6 class="text-down" align="center">Conoce más sobre ATD</h6>
             <!-- <br><button class="read-more"><i class="icon-caret-down"></i></button> -->
-			<a class="btn-floating btn-large waves-effect waves-light cyan"><i class="material-icons">navigate_next</i></a><br>
+			<a class="btn-floating btn-large waves-effect waves-light cyan" href="atd.html"><i class="material-icons">navigate_next</i></a><br>
           </div>
         </div>
       </div>
     </div>
 
     <div class="section white valign-wrapper">
+	<img class="background center-crop" src="images/bg_patron2.jpg" alt=""> 
       <div class="row valign">
         <div class="col s12 m10 offset-m1">
           <div class="row">
@@ -130,12 +131,12 @@
 
     <!-- Contact Us -->
     <!-- <div class="section light valign-wrapper amber"> -->
-	<div class="section light valign-wrapper imagecontact">
+	<div id="contact" class="section light valign-wrapper imagecontact">
       <div class="container">
         <form>
           <div class="row">
             <div class="col s12"><h2 class="section-title">Contáctanos</h2></div>
-            <div class="input-field col s6">
+			<div class="input-field col s6">
               <input id="first_name" type="text">
               <label for="first_name">Nombre</label>
             </div>
@@ -143,10 +144,21 @@
               <input id="last_name" type="text">
               <label for="last_name">Apellido</label>
             </div>
+			 <div class="input-field col s6">
+              <input id="first_name" type="text">
+              <label for="first_name">Teléfono</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text">
+              <label for="last_name">Email</label>
+            </div>
             <div class="input-field col s12">
               <textarea id="message" class="materialize-textarea"></textarea>
               <label for="message">Mensaje</label>
               <a class="waves-effect waves-light btn-large">Enviar</a>
+            </div>
+			<div class="input-field col s12">
+              <label for="message"><strong>Diego Felipe Sánchez Gómez +57 315-8369-481<strong></label>
             </div>
           </div>
         </form>
