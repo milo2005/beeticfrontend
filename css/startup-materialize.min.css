@@ -1,5 +1,9 @@
 .text-down{
-	color: #1de9c3;
+	color: #a0151f;
+	margin-top: 50px;
+}
+.sec-text-down{
+	color: #333333;
 	margin-top: 50px;
 }
 .icon-down{
@@ -8647,7 +8651,7 @@ button:focus {
 	background: none
 }
 i {
-	color: #1de9c3
+	color: #333333
 }
 .primary-color {
 	background-color: #1de9c3 !important
@@ -8857,7 +8861,7 @@ nav.navbar ul a:hover {
 	background-color: transparent
 }
 .header {
-	color: #632b1f
+	color: #e24627
 }
 .header .header-wrapper {
 	top: 0;
@@ -8885,7 +8889,7 @@ nav.navbar ul a:hover {
 .header .header-wrapper .read-more:active {
 	-webkit-transform: translateY(1px);
 	transform: translateY(1px);
-	color: #63f0d6
+	color: #333333
 }
 .header .header-wrapper .read-more i {
 	font-size: 24px
